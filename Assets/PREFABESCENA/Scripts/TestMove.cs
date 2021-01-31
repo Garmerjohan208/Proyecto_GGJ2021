@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PersonajeController : MonoBehaviour
+public class TestMove : MonoBehaviour
 {
     private float speed = 20f;
 

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Paper Environment Pack vol. 1/TerrainDemo_Autumn.unity
-    guid: 4404a43023f5283419782db41f4edceb
+    path: Assets/StartScene.unity
+    guid: cd9228bfc7f8cfa44abe890cfdf09539
+  - enabled: 1
+    path: Assets/Escena paisaje.unity
+    guid: 7abb34e25c336564e9dc33727059c1cf
+  - enabled: 1
+    path: Assets/FinalScene.unity
+    guid: ad70c6866a0424c4792e87ad51a738bb
   m_configObjects: {}
