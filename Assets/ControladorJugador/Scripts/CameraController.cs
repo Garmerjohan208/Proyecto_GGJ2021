@@ -32,17 +32,17 @@ public class CameraController : MonoBehaviour
         transform.LookAt(Target);
 
 
-        if (Input.GetKey("w") || Input.GetKey("s") || Input.GetKey("a") || Input.GetKey("d"))
-        {
+        //if (Input.GetKey("w") || Input.GetKey("s") || Input.GetKey("a") || Input.GetKey("d"))
+        //{
             Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
             Player.rotation = Quaternion.Euler(0, mouseX, 0);
-        }
-        else 
-        {
+        //}
+        //else 
+        //{
 
-            Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+        //    Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
 
-        }
+        //}
          
 
     }
