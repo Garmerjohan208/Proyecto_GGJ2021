@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static GameController gameController;
+    [SerializeField] private Animator animator;
+    [SerializeField] private GameObject CanvasUI;
 
     private void OnEnable()
     {
@@ -23,11 +25,13 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        
+        animator.SetBool("activateStartAnim", true);
     }
 
     public void LoadEscenaPaisaje()
     {
+        animator.SetBool("activateStartAnim", false);
+        CanvasUI.SetActive(false);
         SceneManager.LoadScene("Escena paisaje");
     }
 

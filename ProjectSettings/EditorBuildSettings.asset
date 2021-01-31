@@ -11,7 +11,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escena paisaje.unity
     guid: 7abb34e25c336564e9dc33727059c1cf
-  - enabled: 1
-    path: Assets/FinalScene.unity
-    guid: ad70c6866a0424c4792e87ad51a738bb
   m_configObjects: {}

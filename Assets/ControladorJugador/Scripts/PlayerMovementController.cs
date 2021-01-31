@@ -30,7 +30,7 @@ public class PlayerMovementController : MonoBehaviour
         moveHorizontal = Input.GetAxis("Horizontal");
         moveVertical = Input.GetAxis("Vertical");
 
-        moveCube = new Vector3(moveHorizontal, 0f, moveVertical);
+        moveCube = new Vector3(moveHorizontal , 0f, moveVertical);
         transform.Translate(moveCube * CurrentSpeed * Time.deltaTime);
 
         //Animate Going Up
