@@ -110,6 +110,10 @@ public class PlayerMovementController : MonoBehaviour
             CurrentSpeed = WalkingSpeed;
 
         }
-
+    }
+     
+    public void ExitApp()
+    {
+        Application.Quit();
     }
 }
